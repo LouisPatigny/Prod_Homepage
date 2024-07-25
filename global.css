@@ -58,6 +58,7 @@ main {
 }
 
 .play-button {
+    width : 200px;
     position: absolute;
     bottom: 60px;
     left: 50%;
@@ -67,38 +68,43 @@ main {
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    text-shadow: black 1px 1px 1px;
+    font-weight: bold;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .flappy-bird {
-    background: linear-gradient(135deg, #34e89e, #0f3443);
+    background: linear-gradient(135deg, #f9ab29, #f8416e);
+    font-family: "Comic Sans MS", cursive;
 }
 
 .flappy-bird:hover {
-    background: linear-gradient(135deg, #0f3443, #34e89e);
-    transform: translate(-50%, -5px);
+    background: linear-gradient(135deg, #ed3e6b, #f3a526);
+    transform: translate(-50%, -10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 .time-travel {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #2a8054, #42364d);
+    font-family: "Lucida Console", Monaco, monospace;
 }
 
 .time-travel:hover {
-    background: linear-gradient(135deg, #2a5298, #1e3c72);
-    transform: translate(-50%, -5px);
+    background: linear-gradient(135deg, #3f334b, #2c795a);
+    transform: translate(-50%, -10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 .fighting-game {
-    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    background: linear-gradient(135deg, #265474, #a97c62);
+    font-family: Consolas, monospace;
 }
 
 .fighting-game:hover {
-    background: linear-gradient(135deg, #ff4b2b, #ff416c);
-    transform: translate(-50%, -5px);
+    background: linear-gradient(135deg, #a87b62, #265473);
+    transform: translate(-50%, -10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -111,4 +117,5 @@ main {
 
 .arg.clicked {
     color: red; /* Change the color when clicked */
+    text-shadow: red 1px 1px 15px;
 }
