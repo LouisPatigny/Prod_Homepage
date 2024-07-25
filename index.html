@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux-A-Gogo.com</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Bienvenue su<span class="arg" id="letterR">r</span> Jeux-<span class="arg" id="letterA">A</span>-<span class="arg" id="letterG">G</span>ogo.com</h1>
+</header>
+<main>
+    <div class="gallery">
+        <div class="image-container" id="game1">
+            <img src="./assets/SEB_IMG.jpg" alt="Game 1">
+            <button class="play-button flappy-bird" onclick="playGame('game1')">CanardVille</button>
+        </div>
+        <div class="image-container" id="game2">
+            <img src="./assets/EVA_IMG.png" alt="Game 2">
+            <button class="play-button time-travel" onclick="playGame('game2')">THANOS</button>
+        </div>
+        <div class="image-container" id="game3">
+            <img src="./assets/JU_IMG.jpg" alt="Game 3">
+            <button class="play-button fighting-game" onclick="playGame('game3')">Code Escape</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
